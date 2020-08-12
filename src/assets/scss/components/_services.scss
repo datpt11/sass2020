@@ -1,0 +1,38 @@
+.services {
+  padding-top: 8rem;
+}
+.services__list {
+  width: 70vw;
+  margin: 0 auto;
+}
+.services__title {
+  margin: 2.9rem 0;
+}
+.services__item {
+  position: relative;
+}
+.circle {
+  @include circle(7.9rem, 50%);
+  position: absolute;
+  left: -4rem;
+  z-index: -100000;
+  background-color: #eeeeee;
+}
+.circle--pink {
+  background-color: $color-tertiary-1;
+}
+.circle--blue {
+  background-color: $color-primary-3;
+}
+.circle--grey {
+  background-color: $color-tertiary-3;
+}
+.circle--charcoal-purple {
+  background-color: $color-primary-2;
+}
+
+@media screen and (min-width: 992px) {
+  .services__list {
+    width: 93vw;
+  }
+}

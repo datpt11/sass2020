@@ -1,0 +1,45 @@
+/* Typography */
+
+ul li {
+  list-style: none;
+  font-size: $font-size-menu;
+  font-weight: $font-normal;
+}
+a {
+  color: $color-menu !important;
+  &:hover {
+    color: $color-menu !important;
+    text-decoration: none;
+  }
+}
+
+a {
+  outline: none;
+}
+
+h2 {
+  font-size: 3rem;
+  font-weight: $font-normal;
+  color: $color-dark-1;
+}
+h4 {
+  font-size: 2rem;
+  font-weight: $font-semibold;
+  color: $color-dark-1;
+}
+p {
+  font-size: $font-size-text;
+}
+span {
+  color: $color-quaternary-2;
+}
+h6 {
+  font-weight: $font-bold;
+  color: $color-dark-1;
+  font-size: 1.4rem;
+}
+h5 {
+  font-size: 1.8rem;
+  color: $color-dark-1;
+  font-weight: $font-semibold;
+}

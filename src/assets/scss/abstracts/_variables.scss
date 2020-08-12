@@ -1,0 +1,56 @@
+// Import variable global
+
+// Font family
+$font-primary: "Montserrat", sans-serif;
+$font-secondary: "Poppins", sans-serif;
+$font-tertiary: "Lora", sans-serif;
+// Font awesome
+$font-awesome: "FontAwesome";
+
+// font LineAwesome
+$font-LineAwesome: "LineAwesome";
+
+// Font weight
+$font-light: 300;
+$font-normal: 400;
+$font-medium: 500;
+$font-semibold: 600;
+$font-bold: 700;
+$font-black: 900;
+
+// style
+$font-style-i: italic;
+
+// Color
+$color-primary: #616ae8;
+$color-primary-1: rgba(142, 214, 229, 0.95);
+$color-primary-2: #e7effb; //circle 4
+$color-primary-3: #e7faf9; // circle 2
+$color-tertiary-1: #fbe9e9; // circle 1
+$color-tertiary-2: #fcf3ec; // backgound-section 3
+$color-tertiary-3: #f5ecfd; // circle 3
+$color-tertiary-4: #fdf1e7;
+$color-quaternary-2: #5e68f9; // color backgound design
+$color-quaternary-5: #f0f9fe; // backgound-before-image
+$color-dark-1: #2e2a41; // color heading
+$color-dark-2: #7e7fa0; // color p
+$color-menu: #4f4b65;
+$color-white: #fff;
+
+$round: 5px;
+$size-border-10: 10px;
+$font-size-menu: 1.5rem;
+$font-size-button: 1.6rem;
+$font-size-base: 14px;
+$font-size-normal: 1.6rem;
+$font-size-text: 1.5rem;
+$font-size-title: 3rem;
+
+// Breakpoints
+$breakpoints: (
+  "tn": 320px,
+  "xs": 480px,
+  "sm": 768px,
+  "md": 992px,
+  "lg": 1200px,
+);
