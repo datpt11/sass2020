@@ -1,0 +1,20 @@
+.background {
+  width: 59.6rem;
+  height: 61.4rem;
+  background-color: $color-quaternary-5;
+}
+.background--left {
+  background-color: $color-quaternary-5;
+  border-radius: 0 4rem 4rem 0;
+}
+.background--right {
+  background-color: $color-quaternary-5;
+  border-radius: 4rem 0 0 4rem;
+}
+.background--screen {
+  background-color: $color-tertiary-2;
+  border-radius: 4rem;
+  // padding: 8rem 7rem 9rem;
+  padding: 9rem 0;
+  margin: 12rem 1.5rem 0;
+}

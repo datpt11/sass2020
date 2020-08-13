@@ -1,19 +1,11 @@
-.features {
-  margin: 2rem 1.5rem 0;
-  background-color: $color-tertiary-2;
-  border-radius: 4rem;
-  padding: 8rem 7rem 9rem;
-}
+// .features {
+//   margin: 12rem 1.5rem 0;
+//   background-color: $color-tertiary-2;
+//   border-radius: 4rem;
+//   padding: 8rem 7rem 9rem;
+// }
 
-.features__top {
-  text-align: center;
-  .features__desc {
-    margin-top: 2.5rem;
-    font-size: 1.6rem;
-  }
-}
-
-.features__icon {
+.icon {
   position: relative;
   img {
     position: absolute;
@@ -22,36 +14,36 @@
     z-index: 2321321321;
   }
 }
-.features__circle {
+.icon__circle {
   @include circle(7rem, 50%);
   opacity: 0.2;
 }
-.features__circle--orange {
+.icon__circle--orange {
   background-color: #fd9b9b;
 }
-.features__circle--violet {
+.icon__circle--violet {
   background-color: #b06bf1;
 }
-.features__circle--blue {
+.icon__circle--blue {
   background-color: #45ccdb;
 }
-.features__circle--skyblue {
+.icon__circle--skyblue {
   background-color: #45ccdb;
 }
-.features__circle--blue {
+.icon__circle--blue {
   background-color: #545cf0;
 }
-.features__circle--pink {
+.icon__circle--pink {
   background-color: #f16bac;
 }
-.features__circle--green {
+.icon__circle--green {
   background-color: #48de57;
 }
 .features__list {
   margin-top: 3.6rem;
 }
 
-.features__item {
+.features {
   background-color: $color-white;
   border-radius: 2rem;
   padding: 3rem 3.8rem 2.7rem 3rem;
@@ -61,7 +53,7 @@
 }
 
 @media (min-width: 1140px) {
-  .features__top {
-    padding: 0 23rem;
+  .introduce__features {
+    padding: 0 28rem !important;
   }
 }

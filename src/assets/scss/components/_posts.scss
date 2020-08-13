@@ -1,21 +1,8 @@
-.posts {
-  padding-top: 7.7rem;
-}
-.posts__top {
-  text-align: center;
-  .posts__desc {
-    margin-top: 2.5rem;
-    font-size: 1.6rem;
-  }
-  @include media(">lg") {
-    padding: 0 32rem;
-  }
-}
 .posts__list {
   margin-top: 3.5rem;
   padding: 0 13.35rem 11.5rem;
 }
-.posts__item {
+.posts {
   box-shadow: 0 0.4rem 1.4rem rgba(0, 0, 0, 0.1);
   border-radius: 0.6rem;
 }

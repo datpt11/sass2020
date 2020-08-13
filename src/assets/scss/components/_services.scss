@@ -1,14 +1,7 @@
-.services {
-  padding-top: 8rem;
-}
-.services__list {
-  width: 70vw;
-  margin: 0 auto;
-}
 .services__title {
   margin: 2.9rem 0;
 }
-.services__item {
+.services {
   position: relative;
 }
 .circle {
@@ -29,10 +22,4 @@
 }
 .circle--charcoal-purple {
   background-color: $color-primary-2;
-}
-
-@media screen and (min-width: 992px) {
-  .services__list {
-    width: 93vw;
-  }
 }

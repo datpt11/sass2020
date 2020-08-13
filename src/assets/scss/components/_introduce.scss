@@ -1,0 +1,17 @@
+.introduce {
+  text-align: center;
+}
+
+.introduce__title--bold {
+  font-weight: $font-bold;
+}
+.introduce__desc {
+  margin-top: 2.2rem;
+  font-size: 1.6rem;
+}
+
+@media (min-width: 1140px) {
+  .introduce {
+    padding: 0px 40rem;
+  }
+}
